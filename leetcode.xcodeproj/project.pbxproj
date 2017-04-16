@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		612FDFB81EA1E65E00E564E0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 612FDFB71EA1E65E00E564E0 /* main.cpp */; };
-		612FDFD71EA27F8600E564E0 /* Solution486.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 612FDFD51EA27F8600E564E0 /* Solution486.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,7 +28,6 @@
 		612FDFC01EA1E6BE00E564E0 /* TreeNode.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TreeNode.hpp; sourceTree = "<group>"; };
 		612FDFC71EA1E76000E564E0 /* Solution513.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Solution513.hpp; sourceTree = "<group>"; };
 		612FDFCD1EA1F58A00E564E0 /* Solution238.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Solution238.hpp; sourceTree = "<group>"; };
-		612FDFD51EA27F8600E564E0 /* Solution486.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Solution486.cpp; sourceTree = "<group>"; };
 		612FDFD61EA27F8600E564E0 /* Solution486.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Solution486.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -131,7 +129,6 @@
 		612FDFD41EA27F7D00E564E0 /* 8 */ = {
 			isa = PBXGroup;
 			children = (
-				612FDFD51EA27F8600E564E0 /* Solution486.cpp */,
 				612FDFD61EA27F8600E564E0 /* Solution486.hpp */,
 			);
 			path = 8;
@@ -196,7 +193,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				612FDFB81EA1E65E00E564E0 /* main.cpp in Sources */,
-				612FDFD71EA27F8600E564E0 /* Solution486.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
