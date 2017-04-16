@@ -8,6 +8,10 @@
 
 #include <iostream>
 
+#include "Solution486.hpp"
+
 int main(int argc, const char * argv[]) {
+    Solution486 answer;
+    answer.run();
     return 0;
 }

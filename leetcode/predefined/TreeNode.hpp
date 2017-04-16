@@ -21,6 +21,27 @@ struct TreeNode {
         }
     }
     
+    static void postorderDfsStack(TreeNode* root) {
+        std::stack<TreeNode*> visitStack;
+        TreeNode *lastVisit = nullptr;
+        auto cur = root;
+        while (!visitStack.empty() || cur) {
+            if (cur) {
+                visitStack.push(cur);
+                cur = cur->left;
+            } else {
+                auto peek = visitStack.top();
+                if (peek->right && lastVisit != peek->right) {
+                    cur = peek->right;
+                } else {
+                    // visit peek
+                    lastVisit = peek;
+                    visitStack.pop();
+                }
+            }
+        }
+    }
+    
     
     static void inorderDfsStack(TreeNode* root) {
         std::stack<TreeNode*> visitStack;
