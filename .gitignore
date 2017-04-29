@@ -1,1 +1,2 @@
-leetcode.xcodeproj/xcuserdata
+leetcode.xcodeproj/**/xcuserdata
+.DS_Store

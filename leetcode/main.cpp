@@ -8,10 +8,10 @@
 
 #include <iostream>
 
-#include "Solution486.hpp"
+#include "Solution199.hpp"
 
 int main(int argc, const char * argv[]) {
-    Solution486 answer;
+    Solution199 answer;
     answer.run();
     return 0;
 }
