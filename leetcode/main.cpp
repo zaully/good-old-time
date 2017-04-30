@@ -7,11 +7,17 @@
 //
 
 #include <iostream>
+#include <chrono>
 
-#include "Solution199.hpp"
+#include "Solution301.hpp"
 
 int main(int argc, const char * argv[]) {
-    Solution199 answer;
+    
+    using namespace std::chrono;
+    milliseconds ms1 = duration_cast< milliseconds >(system_clock::now().time_since_epoch());
+    Solution answer;
     answer.run();
+    milliseconds ms2 = duration_cast< milliseconds >(system_clock::now().time_since_epoch());
+    std::cout << "Time spent: " << ms2.count() - ms1.count() << std::endl;
     return 0;
 }
